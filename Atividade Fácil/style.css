@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+    margin: 2opx;
+    background-color: #f4f4f4;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    color:#333;
+    margin-bottom: 15px;
+}
+
+.input-area{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#novaTarefa {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solids #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.input-area button{
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-area button:hover{
+    background-color: #4cae4c;
+}
+
+#ListaDeTarefas{
+    list-style:  none;
+    padding: 0;
+}
+
+#listaDeTarefas li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee
+}
+
+#listaDeTarefas li:last-child {
+    border-bottom: none;
+}
+
+#listaDeTarefas li span {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+#listaDeTarefas li button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#listaDeTarefas li button:hover {
+    background-color: #c9302c;
+}
+
+#listaDeTarefas li input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#listaDeTarefas li .concluida {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.controls button:hover {
+    background-color: #eea236;
+}
+
+#contador {
+    font-size: 16px;
+    color: #555;
+}
